@@ -20,6 +20,8 @@
     --bg-features-4: #dcf6e8;
     --bg-features-5: #f8e4e1;
     --bg-features-6: #fbffd4;
+    
+    
 
     /* Text Color */
     --text-black: #000;
@@ -289,7 +291,7 @@ a.scroll-arrow i {
     color: var(--text-black);
 }
 .features_wrapper .features_text{ 
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.5; 
     color:var(--text-light-2);
@@ -327,13 +329,90 @@ a.scroll-arrow i {
     display: block;
     margin-top: -70px;
 }
+.features_wrapper .ft-4{
+    background:var(--bg-features-4);
+    padding:40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-4:before{
+    content: url(../images/book.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-5{
+    background:var(--bg-features-5);
+    padding:40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-5:before{
+    content: url(../images/book.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-6{
+    background:var(--bg-features-6);
+    padding:40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-6:before{
+    content: url(../images/coach.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-7{
+    background:var(--bg-features-1);
+    padding:40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-7:before{
+    content: url(../images/idea.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-8{
+    background:var(--bg-features-2);
+    padding:40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-8:before{
+    content: url(../images/read.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
 .features_btn{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*-----review section start--------*/
+/*----Coaching method section start-----*/
+.col_count_2 {
+    column-count: 2;
+}
+
+.col_count_2 li{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5; 
+    color:var(--text-light-2);
+}
+
+
+/*----offered coursed section start-----*/
+.col_count_3 li{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5; 
+    color:var(--text-light-2);
+}
+
+
+
 /* Testimonial CSS */
 .testimonial{
     padding:1rem 0 3rem;

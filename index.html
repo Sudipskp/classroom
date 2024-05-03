@@ -2,175 +2,320 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pabitra Chakraborty</title>
-    <!--favicon-->
-    <link rel="icon" href="images/favicon.png" type="image/png">
-    <!-- Bootstrap 5 CDN Links -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Custom File's Link -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive-style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pabitra Chakraborty</title>
+  <!--favicon-->
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <!-- Bootstrap 5 CDN Links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom File's Link -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive-style.css">
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="85">
-   <!-- Navbar section -->
-   <header class="header_wrapper">
+  <!-- Navbar section -->
+  <header class="header_wrapper">
     <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img decoding="async" src="images/logo.png" class="img-fluid" alt="logo">
-            </a>
-            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <i class="fas fa-stream navbar-toggler-icon"></i>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav menu-navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#coachingM">Coaching Method</a>
-                  </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonial">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item text-center">
-                        <a class="nav-link learn-more-btn btn-extra-header" href="#contact"><i class="fa-solid fa-phone"></i> +91 84207 83084</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img decoding="async" src="images/logo.png" class="img-fluid" alt="logo">
+        </a>
+        <button class="navbar-toggler pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coachingM">Coaching Method</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item text-center">
+              <a class="nav-link learn-more-btn btn-extra-header" href="#contact"><i class="fa-solid fa-phone"></i> +91
+                84207 83084</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</header>
-<!-- Navbar section exit -->
-    <!-- Banner section -->
-    <section id="home" class="banner_wrapper">
-        <div class="container">
-            <div class="content">
-                <div class="logoContainer">
-                    <img src="images/logo.png" alt="logo">
-                    <h1 class="no-copy py-4">Pabitra Chakraborty</h1>
-                    <div class="separator-container no-show">
-                        <div class="separator line-separator">
-                            <picture></picture>
-                        </div>
-                    </div>
-                    <h4 class="no-copy">Get Ready</h4>
-                </div>
-            </div>
-            <a href="#about" data-scroll="true" data-id="#whoWeAre" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down"></i>
-            </a>
-            </div>
-        </div>
-    </section>
-    <!-- Banner section exit -->
-
-    <!--About Section Start-->
-    <section id="about" class="about_wrapper reveal">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm-12 col-lg-5 text-center text-lg-start">
-                    <p class="features_subtitle">About us</p>
-                    <h2 class="about_title">Pabitra Chakraborty</h2>
-                    <p class="about_text">Pabitra Sir & his team have been coaching civil service aspirants for more than a decade with a remarkable success story. Every single class is designed with some effective techniques, short-cuts and several technical methods to cope up with the huge syllabus in an organized manner and gain extreme confidence over all subjects within a short span of time.
-                             <br><br>
-                        He is the person who has entirely changed the concept of preparation for civil service exams through his coaching method that enables every serious aspirant to get an extreme control over all of the subjects within unbelievable short time. His materials and notes are arranged with highly effective technical approach that helps any aspirant from any educational background to understand the basic concepts of all subjects with less time and effort. Students often call him as Powerhouse of Motivation as he is always connected to each of his students personally and encourage them towards the success.</p>
-                    <div class="my-5">
-                        <a class="learn-more-btn" href="#innovate">Find out more</a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-7 text-center text-md-start"> 
-                    <img decoding="async" src="images/pabitra.png" class="img-fluid1"> 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Section End -->
-   <!--Courses section start-->
-   <section id="features" class="features_wrapper reveal">
+  </header>
+  <!-- Navbar section exit -->
+  <!-- Banner section -->
+  <section id="home" class="banner_wrapper">
     <div class="container">
-        <div class="row">
-            <div class="col-12 text-center mb-5">
-                <p class="features_subtitle">Courses offer</p>
-                <h2 class="features_title">Students can avail online coaching on following courses </h2>
+      <div class="content">
+        <div class="logoContainer">
+          <img src="images/logo.png" alt="logo">
+          <h1 class="no-copy py-4">Pabitra Chakraborty</h1>
+          <div class="separator-container no-show">
+            <div class="separator line-separator">
+              <picture></picture>
             </div>
+          </div>
+          <h4 class="no-copy">Get Ready</h4>
         </div>
-        <div class="row">
-            <div class="col-lg-12 mb-5">
-                <div class="ft-1">
-                    <h3>UPSC COMPLETE COURSE</h3>
-                    <p class="features_text">UPSC COMPLETE COURSE is designed to prepare students with 
-                        the whole syllabus along with several practice sessions and Mock sessions 
-                        so that they can generate the optimum level of confidence. Suggestive 
-                        Materials and one-liners are provided for each and every subject and a 
-                        comprehensive coaching is provided for – Prelims, Mains and Interview 
-                        (no separate guidance is available for any single subject or level, 
-                        only complete course is offered so that the faculty members can analyze
-                         the student from day one and coach accordingly to cover
-                          Prelims and Mains at the same time).
-                          
-                        </p>
-                </div>
-            </div>
-            <div class="col-lg-12 mb-5">
-                <div class="ft-2">
-                    <h3>WBCS COMPLETE COURSE</h3>
-                    <p class="features_text">Pabitra Chakraborty, the founder of ClassRoom Academy 
-                        has made WBCS exam easier with several analytical approaches and by 
-                        providing students some outstanding tricks to remember each point, 
-                        understanding the core concept in short time, 
-                        handling the negative markings and practice methods. 
-                        Notes and materials are provided for all subjects ( Prelims & Mains ) 
-                        including optional papers and every single note is technically designed 
-                        under the supervision of senior advisory panel. The suggestions provided by 
-                        Pabitra Chakraborty has been playing as the significant key factor behind 
-                        quick and easy success since 2004. Every year, students are getting more than 
-                        85% questions common in both prelims and mains level of WBCS exam from his suggestions.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-12 mb-5">
-                <div class="ft-3">
-                    <h3>COMBINED</h3>
-                    <p class="features_text">ClassRoom also provides guidance for different State Govt 
-                        | Central Govt roll-outs including SSC CGL | IND RAILWAY | PSC MISC | 
-                        UPSC GRADUATE LEVEL | WB & KOLKATA POLICE | LIC CENTRAL ARMED FORCES | NDA | 
-                        AIRPORT AUTHORITY | WB CO-OPERATIVE SERVICES and all other Graduate 
-                        level exam under Central & State Staff Selection Commissions.
-                        
-                    </p>
-                </div>
-            </div>
-            
-            </div>
-        </div>
+      </div>
+      <a href="#about" data-scroll="true" data-id="#whoWeAre" class="scroll-arrow hidden-xs hidden-sm">
+        <i class="fa fa-angle-down"></i>
+      </a>
     </div>
-</section>
-   <!--Courses section end-->
-  
+    </div>
+  </section>
+  <!-- Banner section exit -->
 
+  <!--About Section Start-->
+  <section id="about" class="about_wrapper reveal">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-lg-5 text-center text-lg-start">
+          <p class="features_subtitle">About us</p>
+          <h2 class="about_title">Pabitra Chakraborty</h2>
+          <p class="about_text">Pabitra Sir & his team have been coaching civil service aspirants for more than a decade
+            with a remarkable success story. Every single class is designed with some effective techniques, short-cuts
+            and several technical methods to cope up with the huge syllabus in an organized manner and gain extreme
+            confidence over all subjects within a short span of time.
+            <br><br>
+            He is the person who has entirely changed the concept of preparation for civil service exams through his
+            coaching method that enables every serious aspirant to get an extreme control over all of the subjects
+            within unbelievable short time. His materials and notes are arranged with highly effective technical
+            approach that helps any aspirant from any educational background to understand the basic concepts of all
+            subjects with less time and effort. Students often call him as Powerhouse of Motivation as he is always
+            connected to each of his students personally and encourage them towards the success.
+          </p>
+          <div class="my-5">
+            <a class="learn-more-btn" href="#innovate">Find out more</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-7 text-center text-md-start">
+          <img decoding="async" src="images/pabitra.png" class="img-fluid1">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+  <!--Coaching method section start-->
+  <section id="coachingM" class="features_wrapper reveal">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-3">
+          <p class="features_subtitle">Coaching Method</p>
+          <h2 class="features_title">ClassRoom Academy provides comprehensive online live classes only for both UPSC and
+            WBCS.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 mb-5">
+          <div class="ft-4">
+            <p class="features_text">Pabitra Chakraborty and his team provides an exclusive strategy oriented coaching
+              with authentic set of materials and technically designed suggestive mocks that ensure quick success
+              against minimum time and effort. Coaching is available only in online mode ( live classes ), because
+              students can avail unlimited classes through online mode only " online classes save time and enhance the
+              quality | concentration "students can get connected to the faculties throughout the week " each and every
+              single moment gets utilized by practice sessions Classes are available upto the mid night so that the
+              working aspirants can also comfortably attend the classes. Each student gets a flexible schedule as per
+              their own choice and the practice sessions enable students to learn | remember and mug up the notes in
+              classes only instead of getting the huge burden of homeworks.
+            </p>
 
+            <ul class="col_count_2 mb-3 list-unstyled">
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> NDIVIDUAL STRATEGY FOR EACH
+                STUDENT </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> UNLIMITED CLASSES | VERY SMALL
+                BATCHES</li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> NO HOME WORK | PRACTICE SESSION
+                COVERS EVERYTHING</li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> HIGHLY EFFECTIVE SUGGESTIONS WITH
+                100 % ASSURANCE</li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> GUIDANCE BY RTD IASOFFICER FOR
+                ANSWER WRITING</li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> END TO END INDIVIDUAL GUIDANCE
+                AND MOTIVATION</li>
 
+            </ul>
+          </div>
+        </div>
 
-   <!-- Testimonial section start-->
-   <section id="testimonial" class="testimonial reveal">
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--Coaching method section end-->
+  <!--Courses section start-->
+  <section id="features" class="features_wrapper reveal">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-3">
+          <p class="features_subtitle">Courses offer</p>
+          <h2 class="features_title">Students can avail online coaching on following courses </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 mb-5">
+          <div class="ft-1">
+            <h3>UPSC COMPLETE COURSE</h3>
+            <p class="features_text">UPSC COMPLETE COURSE is designed to prepare students with
+              the whole syllabus along with several practice sessions and Mock sessions
+              so that they can generate the optimum level of confidence. Suggestive
+              Materials and one-liners are provided for each and every subject and a
+              comprehensive coaching is provided for – Prelims, Mains and Interview
+              (no separate guidance is available for any single subject or level,
+              only complete course is offered so that the faculty members can analyze
+              the student from day one and coach accordingly to cover
+              Prelims and Mains at the same time).
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-12 mb-5">
+          <div class="ft-2">
+            <h3>WBCS COMPLETE COURSE</h3>
+            <p class="features_text">Pabitra Chakraborty, the founder of ClassRoom Academy
+              has made WBCS exam easier with several analytical approaches and by
+              providing students some outstanding tricks to remember each point,
+              understanding the core concept in short time,
+              handling the negative markings and practice methods.
+              Notes and materials are provided for all subjects ( Prelims & Mains )
+              including optional papers and every single note is technically designed
+              under the supervision of senior advisory panel. The suggestions provided by
+              Pabitra Chakraborty has been playing as the significant key factor behind
+              quick and easy success since 2004. Every year, students are getting more than
+              85% questions common in both prelims and mains level of WBCS exam from his suggestions.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-12 mb-5">
+          <div class="ft-3">
+            <h3>COMBINED</h3>
+            <p class="features_text">ClassRoom also provides guidance for different State Govt
+              | Central Govt roll-outs including SSC CGL | IND RAILWAY | PSC MISC |
+              UPSC GRADUATE LEVEL | WB & KOLKATA POLICE | LIC CENTRAL ARMED FORCES | NDA |
+              AIRPORT AUTHORITY | WB CO-OPERATIVE SERVICES and all other Graduate
+              level exam under Central & State Staff Selection Commissions.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--Courses section end-->
+
+  <!---offered coursed section start-->
+  <section id="coachingM" class="features_wrapper reveal">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-3">
+          <!-- <p class="features_subtitle">Coaching Method</p> -->
+          <h2 class="features_title">any of the above mentioned courses or combining any group of offered coursed can be
+            availed in same mode of coaching which are mentioned below. </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 mb-5">
+          <div class="ft-5">
+            <h3>10 HEAD Batch (10 students in a batch )</h3>
+            <p class="features_text">In this mode, students get the entire coaching in a batch of 10 students. Every
+              individual student in a batch is taken care by the individual strategy and unlimited personal care by a
+              team of asst. faculties. In this mode, students can avail doubt clearing classes whenever is required and
+              also get extra classes on time to time by Pabitra Sir. specific feature and conditions of 10 Head Batch
+              are as follows: "
+            </p>
+
+            <ul class="col_count_3 mb-3 list-unstyled">
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Weekly 1 main class by Pabitra Sir +2 other classes by a team of asst.faculties. </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> 2 extra classes for math’s and general intelligence by asst.faculties (fixed timings )</li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> 100 % personal attention to each and every student ( with personal strategies) </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Each student will get the weak point analysis and extra repeat classes on weak subjects </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Regular performance tracking with mock sessions for each individual student in a batch </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> No limit of doubt clearance | extra practice sessions | MCQ rounds by asst.faculties </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Answer writings will be evaluated by asst.faculties and Pabitra Sir (for mains only )  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> All class timings are fixed ( but students get several options to choose between ) </li>
+ 
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-12 mb-5">
+          <div class="ft-6">
+            <h3>4 HEAD Batch (4 students in a batch)</h3>
+            <p class="features_text">In this mode, students get the entire coaching in a batch of 4 students Every individual student in this batch is taken care individually by Pabitra Sir with his ultimate coaching method that enables to remember all of the information easily and quickly by several technically designed strategies and short-cut memory enhancement methods | short stories | suggestive one liners and unlimited practice sessions conducted by the highly experienced team of asst.faculties with mock sessions | mug up classes. specific feature and conditions of 4 Head Batch are as follows:
+            </p>
+
+            <ul class="col_count_3 mb-3 list-unstyled">
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Weekly 2 main classes by Pabitra Sir +2 other classes by a team of asst.faculties. </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> 2 extra classes for maths and general intelligence by asst.faculties ( fixed timings ) </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> 100 % personal attention to each and every student ( with personal strategies)  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Each student will get the weak point analysis | solution by Pabitra Sir personally  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Regular performance tracking with mock sessions will be conducted by Pabitra Sir  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> No limit of doubt clearance | extra practice sessions | MCQ rounds by asst.faculties  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Several extra classes ( topic oriented ) will be conducted by Pabitra Sir.   </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Special guidance on answer writing and evaluation of the same will be by Pabitra Sir  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> In this mode, students can also avail personal doubt clearance classes by Pabitra Sir   </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> All class timings are fixed ( but students get several options to choose between )  </li>
+ 
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-12 mb-5">
+          <div class="ft-7">
+            <h3>INDIVIDUAL COACHING (1:1 classes )</h3>
+            <p class="features_text">In this mode, students get the entire coaching in invidual classes by Pabitra Sir & team. Students get the ultimate guidance with individual weak point analysis and it's solution through several technically designed strategies, methods and practice sessions conducted by Pabitra Sir and a highly experienced, dedicated team of senior faculties. All main classes ||doubt clearance classes | practice sessions | mug up classes will be in individual mode but students will also be placed in extra group classes for a better understanding of the competition. In this mode, Pabitra Sir and his entire team will try to ease the whole syllabus and guide the student to remember every material for a long tenure against minimumtime and effort ( notes will be designed in more refined format ). Specific feature and conditions of the individual mode are as follows:
+            </p>
+
+            <ul class="col_count_3 mb-3 list-unstyled">
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Weekly 3 main classes by Pabitra Sir in individual 1:1 mode + extra classes (unlimited ). </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Unlimited number of doubt clearance classes by Pabitra Sir + team of senior faculties 
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Every day, Pabitra Sir will be connected to the student 24 X 7  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> All classes are with flexible timings (student can schedule classes _any day any time )    </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Performance of the student in this mode will be tracked on daily basis Pabitra Sir  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Students will get every day a newly designed strategy for utilizing every free moment.  </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Students will get customized materials | notes | one liners as per comfort level.   </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Special classes to mug up the information easily and quickly (unlimited no. of classes )    </li>
+              <li class="mb-2"><i class="fa-regular fa-circle-check text-success"></i> Answer writings will be guided and evaluated by Pabitra Sir ( on regular basis )  </li>
+ 
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-12 mb-5">
+          <div class="ft-8">
+            <h3>PRIME COACHING (The ultimate guidance )</h3>
+            <p class="features_text">In this mode of coaching, students can avail the ultimate guidance by Pabitra Sir with highly effective suggestions and specifically designed strategies to cope up with the whole syllabus more easily | against minimum possible time, effort and study hours. The end to end preparation will be conducted by Pabitra Sir with 100% assurance of success to all serious aspirants. With flexibility of class timings, students just need to attend the classes regularly and avail the practice sessions which will enable them to expect the success in first attempt only. Suggestions | Ans writing techniques | Materials, MCQ rounds and all of the required segments will be guided by Pabitra Sir with highly effective techniques in an organized manner to ensure everything will be in ultimate level of personal convenience of student. Overall preparation will be in a completely different category where each and every step will be monitored, evaluated and corrected with systematically arranged notes, suggestive points, technical approaches and day to day personal attention by Pabitra Sir. It's a 100% flexible mode with unlimited classes and doubt clearance | practice sessions | special answer writing classes | MCQ rounds by Pabitra Sir (any day , any time schedule ) in 1: 1 individual mode.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!---offered coursed section start-->
+
+  <!-- Testimonial section start-->
+  <section id="testimonial" class="testimonial reveal">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -181,31 +326,36 @@
         <div class="col-sm-12 col-lg-8 offset-lg-2 text-center">
           <div id="carouselExampleIndicatorsTwo" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="1" aria-label="Slide 2"></button> 
-              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="2" aria-label="Slide 3"></button> 
-              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="3" aria-label="Slide 4"></button> 
-              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="4" aria-label="Slide 5"></button> 
+              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                 <div class="testimonial-wrapper">
-                   <div class="row">
-                     <div class="col-sm-12">
-                       <img decoding="async" src="./images/review/review-1.jpg" alt="" class="img-fluid">
-                     </div>
-                     <div class="username">
-                        <h3>Saikat Bhattacharya</h3>
-                        <span>WBCS OFFICER</span>
-                        <p>
-                            Mr.Pabitra Chakraborty is the right person with right strategy for WBCS exam.
-                            <br>
-                            His coaching method and the technique is highly appreciated. 
-                            <br><br><br><br>
-                        </p>
+                <div class="testimonial-wrapper">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <img decoding="async" src="./images/review/review-1.jpg" alt="" class="img-fluid">
                     </div>
-                   </div>
-                 </div>
+                    <div class="username">
+                      <h3>Saikat Bhattacharya</h3>
+                      <span>WBCS OFFICER</span>
+                      <p>
+                        Mr.Pabitra Chakraborty is the right person with right strategy for WBCS exam.
+                        <br>
+                        His coaching method and the technique is highly appreciated.
+                        <br><br><br><br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="carousel-item">
                 <div class="testimonial-wrapper">
@@ -214,16 +364,18 @@
                       <img decoding="async" src="./images/review/review-2.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="username">
-                       <h3>Dr. Sourav Kundu</h3>
-                       <span>Medical Practitioner, Renowned Educationalist</span>
-                       <p>
+                      <h3>Dr. Sourav Kundu</h3>
+                      <span>Medical Practitioner, Renowned Educationalist</span>
+                      <p>
                         Yes, there's shortcut to success.
                         <br>
-                        Small batches, personalized approach to cater individual student's need, dedicated faculties, concise study materials, amazing
-                        suggestive notes, guidance by retired IAS officers and most importantly, motivation by Pabitra Sir are some of the mantras for success
-                        <br><br>   
-                    </p>
-                   </div>
+                        Small batches, personalized approach to cater individual student's need, dedicated faculties,
+                        concise study materials, amazing
+                        suggestive notes, guidance by retired IAS officers and most importantly, motivation by Pabitra
+                        Sir are some of the mantras for success
+                        <br><br>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -234,31 +386,15 @@
                       <img decoding="async" src="./images/review/review-2.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="username">
-                       <h3>Mr. Jayanta Chakraborty</h3>
-                       <span>RTD, JUDGE</span>
-                       <p>
-                        Reliable teacher for WBCS coaching.I appreciate his effort to simplify this tough exam with several techniques, strategies and suggestive notes, I personally recommend him to all future aspirants.
-                        <br><br> <br>  
-                    </p>
-                   </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="carousel-item">
-                <div class="testimonial-wrapper">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <img decoding="async" src="./images/review/review-2.jpg" alt="" class="img-fluid">
+                      <h3>Mr. Jayanta Chakraborty</h3>
+                      <span>RTD, JUDGE</span>
+                      <p>
+                        Reliable teacher for WBCS coaching.I appreciate his effort to simplify this tough exam with
+                        several techniques, strategies and suggestive notes, I personally recommend him to all future
+                        aspirants.
+                        <br><br> <br>
+                      </p>
                     </div>
-                    <div class="username">
-                       <h3>Mr. Swapan Barat</h3>
-                       <span>RTD WBCS Former JT Vigilance Commissioner</span>
-                       <p>
-                        A magnificent effort by Pabitra to simplify exams like WBCS.I appreciate his coaching method and highly recommend him.
-                        <br><br><br><br>   
-                    </p>
-                   </div>
                   </div>
                 </div>
               </div>
@@ -270,26 +406,50 @@
                       <img decoding="async" src="./images/review/review-2.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="username">
-                       <h3>Mr. Subhashish Chatterjee</h3>
-                       <span>RTD, IPS Former IG of West Bengal Police</span>
-                       <p>
-                        A tutor, a guid and honest person preserving every second increating a meaningful life for his students by giving them the right
-                        guidance with his original exhaustive notes, made to order for the civil service examination and the most important of all is he
-                        cares for his students so much so that he gives them all types of support and so that he gives them all types of support and boosting
+                      <h3>Mr. Swapan Barat</h3>
+                      <span>RTD WBCS Former JT Vigilance Commissioner</span>
+                      <p>
+                        A magnificent effort by Pabitra to simplify exams like WBCS.I appreciate his coaching method and
+                        highly recommend him.
+                        <br><br><br><br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="testimonial-wrapper">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <img decoding="async" src="./images/review/review-2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="username">
+                      <h3>Mr. Subhashish Chatterjee</h3>
+                      <span>RTD, IPS Former IG of West Bengal Police</span>
+                      <p>
+                        A tutor, a guid and honest person preserving every second increating a meaningful life for his
+                        students by giving them the right
+                        guidance with his original exhaustive notes, made to order for the civil service examination and
+                        the most important of all is he
+                        cares for his students so much so that he gives them all types of support and so that he gives
+                        them all types of support and boosting
                         their moral mentally to tackle the examination with ease. Good luck Pabitra.
-                       </p>
-                   </div>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsTwo"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true">
                 <i class="fa-solid fa-arrow-left slider-icon"></i>
               </span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsTwo"
+              data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true">
                 <i class="fa-solid fa-arrow-right slider-icon"></i>
               </span>
@@ -299,97 +459,101 @@
         </div>
       </div>
     </div>
-  </section> 
-   <!--Testimonial section end---->
+  </section>
+  <!--Testimonial section end---->
   <!--Footer section start--->
   <footer class="bg-dark text-white pt-5 pb-4" id="contact">
     <div class="container text-md-left">
-        <div class="row text-md-left">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">About us</h5>
-                <p>ClassRoom is the single point solution to civil service examinations including IAS, WBCS and also other graduate level competitive exams.</p>
-            </div>
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Contents</h5>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Home</a>
-              </p> 
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">About</a>
-              </p>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Courses</a>
-              </p> 
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Testimonial</a>
-              </p>  
-                
-            </div>
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-               <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Useful Links</h5>
-               <p>
-                <a href="" class="text-white" style="text-decoration: none;">Coaching Method</a>
-              </p> 
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Study Materials</a>
-              </p>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Admission Process</a>
-              </p> 
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Team</a>
-              </p>  
-            </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Contact</h5>
-                <p>
-                    <i class="fas fa-home mr-3"></i>  Madhyamgram, Kolkata 700 130
-                </p>
-                <p>
-                    <i class="fas fa-envelope mr-3"></i>  classroom.kolkata@gmail.com
-                </p>
-                <p>
-                    <i class="fas fa-phone mr-3"></i>  +91 84207 83084
-                </p>
-            </div>
+      <div class="row text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">About us</h5>
+          <p>ClassRoom is the single point solution to civil service examinations including IAS, WBCS and also other
+            graduate level competitive exams.</p>
         </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Contents</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">About</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Courses</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Testimonial</a>
+          </p>
 
-        <hr class="mb-4">
-        <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8">
-            <p>© 2024 - ClassRoom. All Rights Reserved 
-                <!-- <a href="#" style="text-decoration: none;">
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Useful Links</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Coaching Method</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Study Materials</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Admission Process</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Team</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold footer-heading">Contact</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i> Madhyamgram, Kolkata 700 130
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> classroom.kolkata@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> +91 84207 83084
+          </p>
+        </div>
+      </div>
+
+      <hr class="mb-4">
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p>© 2024 - ClassRoom. All Rights Reserved
+            <!-- <a href="#" style="text-decoration: none;">
                 <strong class="text-warning">Sudipskp</strong></a> -->
-            </p>
+          </p>
         </div>
         <div class="col-md-5 col-lg-4">
-            <div class="text-center text-md-right">
-                <ul class="list-unstyled list-inline">
-                    <li class="list-inline-item">
-                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-whatsapp"></i></a>
-                    </li>
-                </ul>
-            </div>
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+              </li>
+            </ul>
+          </div>
 
         </div>
-        </div>
-        </div>
-</footer>
+      </div>
+    </div>
+  </footer>
   <!-- Footer section end -->
 
 
-    <!-- Bootstrap 5 JS CDN Links -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  <!-- Bootstrap 5 JS CDN Links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 
-    <!-- Custom Js Link -->
-    <script src="main.js"></script>
+  <!-- Custom Js Link -->
+  <script src="main.js"></script>
 
 </body>
 

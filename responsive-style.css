@@ -145,3 +145,32 @@
                 display: none;
             }
         }
+
+
+        @media only screen and (max-width: 576px) {
+            .col_count_2 {
+                column-count: 1;
+            }
+        }
+        @media only screen and (max-width: 576px) {
+            .col_count_2 li {
+                display: flex;
+                grid-gap: 6px;
+                align-items: baseline;
+            }
+        }
+
+        /*----offered coursed section start-----*/
+        
+        @media only screen and (max-width: 1000px) {
+            .col_count_3 li {
+                display: flex;
+                grid-gap: 6px;
+                align-items: baseline;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            .col_count_3 li {
+               grid-gap: 4px;
+            }
+        }
