@@ -16,16 +16,16 @@
         .logoContainer {
             margin-top: 50%;
         }
-        .scroll-arrow{
-            margin-top: 50px;
-        }
-
         .banner_wrapper h1 {
             font-size: 40px;
             margin-left: -78px;
 
         }
-
+        a.scroll-arrow i {
+            width: 100%;
+            margin-top: 10px;
+        }
+       
         @media (max-width:1300px) {
 
             /* 2 Navbar */
