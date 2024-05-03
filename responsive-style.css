@@ -16,6 +16,9 @@
         .logoContainer {
             margin-top: 50%;
         }
+        .scroll-arrow{
+            margin-top: 50px;
+        }
 
         .banner_wrapper h1 {
             font-size: 40px;
@@ -65,7 +68,7 @@
 
             /* 2 Navbar */
             .header_wrapper .navbar-brand img {
-                width: 180px;
+                width: 140px;
             }
 
             .header_wrapper .navbar-toggler:focus {
